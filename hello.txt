@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-hello worldwelcome to the git workshop by coc.
-=======
-welocme to the git workshop by coc. yayy
->>>>>>> a5d0119043202151d5f8610261335f7f6a2675a9
