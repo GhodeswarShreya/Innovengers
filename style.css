@@ -1,0 +1,146 @@
+/* *{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#0b061f;
+    color:#fff;
+    background-image: url(bgimg.jpg);
+
+} */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 10; /* Ensure it's above other elements */
+    background: #222; /* Header background */
+    padding: 10px 20px; /* Optional padding */
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em; /* Adjust logo font size */
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+nav.navbar {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+nav.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: black; */
+    background-image: url(image.png);
+    margin-top: 60px;
+}
+
+nav{
+    position: relative;
+    width: 475px;
+    height: 50px;
+    background: #222;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    position:relative;
+    display:inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: o 23px;
+    z-index: 1;
+
+}
+
+.navbar a {
+   display: inline-block; 
+   margin-right: 55px;
+   text-decoration: none; 
+}
+
+.navbar a:last-child {
+    margin-right: 0;
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background:#e1f8f7;
+    border-radius: 5px;
+
+}
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.form{
+    padding: 20px 40px;
+}
+.form .font{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0;
+}
+.form input{
+    height: 40px;
+    widows: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(15, 2, 2);
+}
+.form .font2{
+    margin-top: 30px;
+}
+.form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    background-color: #1A237E;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid #3949ab;
+}
+.form button:hover{
+    background: #151c6a;
+}
+.form #email_error, .form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color:#c62828;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display:none ;
+
+}
